@@ -1,0 +1,88 @@
+body {
+     background: linear-gradient(to bottom, #2c2c2c, #333333);
+    color: #E0E0E0;
+}
+
+#main-content {
+    max-width: 940px;
+    padding: 2em 3em;
+    margin: 0 auto 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    background-color: #6200EE;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #3700B3;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background-color: #3700B3;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+h1, h2, h3 {
+    color: #E0E0E0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.table {
+    background-color: #1e1e1e;
+    color: #E0E0E0;
+    border-radius: 10px;
+    border: none;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #2c2c2c;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444444;
+}
+
+#chat {
+    background-color: #1e1e1e;
+    color: #E0E0E0;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+#chat:focus-within {
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+}
+
+.form-control {
+    background-color: #333333;
+    color: #E0E0E0;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #6200EE;
+    box-shadow: 0 0 10px rgba(98, 0, 238, 0.8);
+}
+
+
