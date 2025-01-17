@@ -33,4 +33,4 @@ This is a simple real-time chat application using WebSocket and STOMP (Simple Te
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/vasanthnn/spring_RealtimeChatApp.git
